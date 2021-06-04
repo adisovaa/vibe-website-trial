@@ -1,11 +1,22 @@
+@font-face {
+  font-family: 'San Francisco(SF UI)';
+  src: local('San Francisco(SF UI) Display Thin'), local('San-Francisco(SF-UI)-Display-Thin'),
+  url('./fonts/SFUIDisplay-Thin/SFUIDisplay-Thin.woff2') format('woff2'),
+  url('./fonts/SFUIDisplay-Thin/SFUIDisplay-Thin.woff') format('woff'),
+  url('./fonts/SFUIDisplay-Thin/SFUIDisplay-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'San Francisco(SF UI)';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   color: #4a4a4a;
+  overflow-x: hidden;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
