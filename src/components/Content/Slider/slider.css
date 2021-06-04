@@ -1,0 +1,41 @@
+.sliderContainer {
+    width: 870px;
+    margin: 0 auto;
+}
+.slider {
+    margin-top: 100px;
+}
+.slider img {
+    width: 820px;
+    float: right;
+}
+div p {
+    text-align: center;
+    margin-top: 35px
+}
+.slick-dots li button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #4a4a4a;
+}
+.slick-dots li button:hover {
+    background-color: #ffb746;
+    border: 2px solid #ffb746;
+}
+.slick-dots li button:before {
+    content: none;
+}
+.slick-dots li {
+    display: table-footer-group;
+}
+.slick-dots {
+    margin-right: 40px;
+}
+ul.slick-dots {
+    margin-bottom: 155px;
+}
+.slider img, .sliderText {
+    margin: 0;
+    padding: 0
+}
+

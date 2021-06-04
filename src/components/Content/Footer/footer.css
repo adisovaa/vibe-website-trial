@@ -1,0 +1,42 @@
+.footer {
+    margin-top: 180px;
+    background-color: #4a4a4a;
+    height: 250px;
+}
+
+.footerLogo img {
+    margin-top: 60px;
+}
+
+.footerNavItem {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerNavItem .menu p a {
+    color: #fff
+}
+
+.footerNavItem .menu {
+    margin-top: 37px;
+}
+
+.lines {
+    margin-top: 90px;
+}
+
+.lines .footerLine {
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    float: right;
+    position: relative;
+}
+
+.lines .footerLine:before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    width: 80px;
+    height: 2px;
+    background-color: #4a4a4a;
+}

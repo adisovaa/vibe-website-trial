@@ -1,0 +1,62 @@
+.img {
+    max-width: 100%;
+}
+.heading {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcomeBlock{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 90px;
+}
+.imgVibe {
+    position: relative;
+    width: 170px;
+    height: 340px;
+    margin-top: 20px;
+}
+
+.text{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text h3 {
+    font-size: 37px;
+}
+.text p {
+    width: 350px;
+    line-height: 27px;
+    text-align: justify;
+    padding-top: 30px;
+}
+.text .line {
+    border-bottom: 2px solid #4a4a4a;
+    width: 385px;
+    float: left;
+    position: relative;
+    margin-left: -290px;
+}
+
+.text .line:before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+}
+.btn{
+    width: 80px;
+    height: 32px;
+    border: 2px solid #ffb746;
+    color: #ffb746;
+    background-color: #fff;
+    float: left;
+}
+.btn:hover {
+    background-color: #ffb746;
+    color: #fff
+}
+

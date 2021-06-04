@@ -1,0 +1,72 @@
+.commentBlock {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.userForm {
+    margin-top: 100px;
+    width: 900px;
+    height: 550px;
+    background-color: #4a4a4a;
+    float: right;
+}
+
+.formContainer {
+    width: 600px;
+    margin: 0 auto
+}
+
+.formText p {
+    color: #fff;
+    text-align: left;
+    line-height: 27px;
+    padding-top: 30px;
+}
+
+input {
+    width: 283px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    padding: 10px;
+}
+
+.formUserInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formUserItem {
+    margin-top: 65px;
+}
+
+textarea {
+    width: 99%;
+    height: 100px;
+}
+
+div button {
+    width: 65px;
+    height: 30px;
+    margin-top: 20px;
+    float: right;
+    color: #4a4a4a;
+}
+
+.block {
+    width: 300px;
+    height: 426px;
+    background-color: #ffb746;
+    position: absolute;
+    margin-left: 167px;
+    z-index: 1;
+    margin-top: 170px;
+}
+.block img {
+    width: 118px;
+    position: absolute;
+    bottom: -8px;
+    margin-left: 106px;
+}
